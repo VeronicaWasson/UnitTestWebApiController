@@ -1,0 +1,683 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UnitTestWebApiController.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:UnitTestWebApiController.Controllers.Fakes.ShimProducts2Controller">
+            <summary>Shim type of UnitTestWebApiController.Controllers.Products2Controller</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.ShimProducts2Controller.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.ShimProducts2Controller.#ctor(UnitTestWebApiController.Controllers.Products2Controller)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.ShimProducts2Controller.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.ShimProducts2Controller.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.ShimProducts2Controller.Bind(System.Web.Http.Controllers.IHttpController)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.ShimProducts2Controller.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Controllers.Fakes.ShimProducts2Controller.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Controllers.Fakes.ShimProducts2Controller.ConstructorIProductRepository">
+            <summary>Sets the shim of Products2Controller.Products2Controller(IProductRepository repository)</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Controllers.Fakes.ShimProducts2Controller.DeleteInt32">
+            <summary>Sets the shim of Products2Controller.Delete(Int32 id)</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Controllers.Fakes.ShimProducts2Controller.GetInt32">
+            <summary>Sets the shim of Products2Controller.Get(Int32 id)</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Controllers.Fakes.ShimProducts2Controller.PostProduct">
+            <summary>Sets the shim of Products2Controller.Post(Product product)</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Controllers.Fakes.ShimProducts2Controller.PutProduct">
+            <summary>Sets the shim of Products2Controller.Put(Product product)</summary>
+        </member>
+        <member name="T:UnitTestWebApiController.Controllers.Fakes.ShimProducts2Controller.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Controllers.Fakes.ShimProducts2Controller.AllInstances.DeleteInt32">
+            <summary>Sets the shim of Products2Controller.Delete(Int32 id)</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Controllers.Fakes.ShimProducts2Controller.AllInstances.GetInt32">
+            <summary>Sets the shim of Products2Controller.Get(Int32 id)</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Controllers.Fakes.ShimProducts2Controller.AllInstances.PostProduct">
+            <summary>Sets the shim of Products2Controller.Post(Product product)</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Controllers.Fakes.ShimProducts2Controller.AllInstances.PutProduct">
+            <summary>Sets the shim of Products2Controller.Put(Product product)</summary>
+        </member>
+        <member name="T:UnitTestWebApiController.Controllers.Fakes.ShimProductsController">
+            <summary>Shim type of UnitTestWebApiController.Controllers.ProductsController</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.ShimProductsController.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.ShimProductsController.#ctor(UnitTestWebApiController.Controllers.ProductsController)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.ShimProductsController.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.ShimProductsController.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.ShimProductsController.Bind(System.Web.Http.Controllers.IHttpController)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.ShimProductsController.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Controllers.Fakes.ShimProductsController.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Controllers.Fakes.ShimProductsController.ConstructorIProductRepository">
+            <summary>Sets the shim of ProductsController.ProductsController(IProductRepository repository)</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Controllers.Fakes.ShimProductsController.GetInt32">
+            <summary>Sets the shim of ProductsController.Get(Int32 id)</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Controllers.Fakes.ShimProductsController.PostProduct">
+            <summary>Sets the shim of ProductsController.Post(Product product)</summary>
+        </member>
+        <member name="T:UnitTestWebApiController.Controllers.Fakes.ShimProductsController.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Controllers.Fakes.ShimProductsController.AllInstances.GetInt32">
+            <summary>Sets the shim of ProductsController.Get(Int32 id)</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Controllers.Fakes.ShimProductsController.AllInstances.PostProduct">
+            <summary>Sets the shim of ProductsController.Post(Product product)</summary>
+        </member>
+        <member name="T:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller">
+            <summary>Stub type of UnitTestWebApiController.Controllers.Products2Controller</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.#ctor(UnitTestWebApiController.Models.IProductRepository)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.BadRequest(System.String)">
+            <summary>Sets the stub of ApiController.BadRequest(String message)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.BadRequest">
+            <summary>Sets the stub of ApiController.BadRequest()</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.BadRequest(System.Web.Http.ModelBinding.ModelStateDictionary)">
+            <summary>Sets the stub of ApiController.BadRequest(ModelStateDictionary modelState)</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.BadRequest01">
+            <summary>Sets the stub of ApiController.BadRequest()</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.BadRequestModelStateDictionary">
+            <summary>Sets the stub of ApiController.BadRequest(ModelStateDictionary modelState)</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.BadRequestString">
+            <summary>Sets the stub of ApiController.BadRequest(String message)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.Conflict">
+            <summary>Sets the stub of ApiController.Conflict()</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.Conflict01">
+            <summary>Sets the stub of ApiController.Conflict()</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.Content``1(System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter,System.Net.Http.Headers.MediaTypeHeaderValue)">
+            <summary>Sets the stub of ApiController.Content(HttpStatusCode statusCode, !!0 value, MediaTypeFormatter formatter, MediaTypeHeaderValue mediaType)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.Content``1(System.Net.HttpStatusCode,``0)">
+            <summary>Sets the stub of ApiController.Content(HttpStatusCode statusCode, !!0 value)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.ContentOf1HttpStatusCodeM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Net.HttpStatusCode,``0,System.Web.Http.Results.NegotiatedContentResult{``0}})">
+            <summary>Sets stubs of Content(HttpStatusCode statusCode, !!0 value)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.ContentOf1HttpStatusCodeM0MediaTypeFormatterMediaTypeHeaderValue``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter,System.Net.Http.Headers.MediaTypeHeaderValue,System.Web.Http.Results.FormattedContentResult{``0}})">
+            <summary>Sets stubs of Content(HttpStatusCode statusCode, !!0 value, MediaTypeFormatter formatter, MediaTypeHeaderValue mediaType)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.Created``1(System.Uri,``0)">
+            <summary>Sets the stub of ApiController.Created(Uri location, !!0 content)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.CreatedAtRoute``1(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},``0)">
+            <summary>Sets the stub of ApiController.CreatedAtRoute(String routeName, IDictionary`2&lt;String,Object&gt; routeValues, !!0 content)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.CreatedAtRouteOf1StringIDictionaryOfStringObjectM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.String,System.Collections.Generic.IDictionary{System.String,System.Object},``0,System.Web.Http.Results.CreatedAtRouteNegotiatedContentResult{``0}})">
+            <summary>Sets stubs of CreatedAtRoute(String routeName, IDictionary`2&lt;String,Object&gt; routeValues, !!0 content)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.CreatedOf1UriM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Uri,``0,System.Web.Http.Results.CreatedNegotiatedContentResult{``0}})">
+            <summary>Sets stubs of Created(Uri location, !!0 content)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.Dispose(System.Boolean)">
+            <summary>Sets the stub of ApiController.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.DisposeBoolean">
+            <summary>Sets the stub of ApiController.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.ExecuteAsync(System.Web.Http.Controllers.HttpControllerContext,System.Threading.CancellationToken)">
+            <summary>Sets the stub of ApiController.ExecuteAsync(HttpControllerContext controllerContext, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.ExecuteAsyncHttpControllerContextCancellationToken">
+            <summary>Sets the stub of ApiController.ExecuteAsync(HttpControllerContext controllerContext, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.Initialize(System.Web.Http.Controllers.HttpControllerContext)">
+            <summary>Sets the stub of ApiController.Initialize(HttpControllerContext controllerContext)</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.InitializeHttpControllerContext">
+            <summary>Sets the stub of ApiController.Initialize(HttpControllerContext controllerContext)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.InitializeStub">
+            <summary>Initializes a new instance of type StubProducts2Controller</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.InternalServerError(System.Exception)">
+            <summary>Sets the stub of ApiController.InternalServerError(Exception exception)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.InternalServerError">
+            <summary>Sets the stub of ApiController.InternalServerError()</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.InternalServerError01">
+            <summary>Sets the stub of ApiController.InternalServerError()</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.InternalServerErrorException">
+            <summary>Sets the stub of ApiController.InternalServerError(Exception exception)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.Json``1(``0,Newtonsoft.Json.JsonSerializerSettings,System.Text.Encoding)">
+            <summary>Sets the stub of ApiController.Json(!!0 content, JsonSerializerSettings serializerSettings, Encoding encoding)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.JsonOf1M0JsonSerializerSettingsEncoding``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0,Newtonsoft.Json.JsonSerializerSettings,System.Text.Encoding,System.Web.Http.Results.JsonResult{``0}})">
+            <summary>Sets stubs of Json(!!0 content, JsonSerializerSettings serializerSettings, Encoding encoding)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.NotFound">
+            <summary>Sets the stub of ApiController.NotFound()</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.NotFound01">
+            <summary>Sets the stub of ApiController.NotFound()</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.Ok">
+            <summary>Sets the stub of ApiController.Ok()</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.Ok``1(``0)">
+            <summary>Sets the stub of ApiController.Ok(!!0 content)</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.Ok01">
+            <summary>Sets the stub of ApiController.Ok()</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.OkOf1M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0,System.Web.Http.Results.OkNegotiatedContentResult{``0}})">
+            <summary>Sets stubs of Ok(!!0 content)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.Redirect(System.Uri)">
+            <summary>Sets the stub of ApiController.Redirect(Uri location)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.Redirect(System.String)">
+            <summary>Sets the stub of ApiController.Redirect(String location)</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.RedirectString">
+            <summary>Sets the stub of ApiController.Redirect(String location)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.RedirectToRoute(System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>Sets the stub of ApiController.RedirectToRoute(String routeName, IDictionary`2&lt;String,Object&gt; routeValues)</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.RedirectToRouteStringIDictionaryOfStringObject">
+            <summary>Sets the stub of ApiController.RedirectToRoute(String routeName, IDictionary`2&lt;String,Object&gt; routeValues)</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.RedirectUri">
+            <summary>Sets the stub of ApiController.Redirect(Uri location)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.ResponseMessage(System.Net.Http.HttpResponseMessage)">
+            <summary>Sets the stub of ApiController.ResponseMessage(HttpResponseMessage response)</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.ResponseMessageHttpResponseMessage">
+            <summary>Sets the stub of ApiController.ResponseMessage(HttpResponseMessage response)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.StatusCode(System.Net.HttpStatusCode)">
+            <summary>Sets the stub of ApiController.StatusCode(HttpStatusCode status)</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.StatusCodeHttpStatusCode">
+            <summary>Sets the stub of ApiController.StatusCode(HttpStatusCode status)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.Unauthorized(System.Collections.Generic.IEnumerable{System.Net.Http.Headers.AuthenticationHeaderValue})">
+            <summary>Sets the stub of ApiController.Unauthorized(IEnumerable`1&lt;AuthenticationHeaderValue&gt; challenges)</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.UnauthorizedIEnumerableOfAuthenticationHeaderValue">
+            <summary>Sets the stub of ApiController.Unauthorized(IEnumerable`1&lt;AuthenticationHeaderValue&gt; challenges)</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Controllers.Fakes.StubProducts2Controller.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:UnitTestWebApiController.Controllers.Fakes.StubProductsController">
+            <summary>Stub type of UnitTestWebApiController.Controllers.ProductsController</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.#ctor(UnitTestWebApiController.Models.IProductRepository)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.BadRequest(System.String)">
+            <summary>Sets the stub of ApiController.BadRequest(String message)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.BadRequest">
+            <summary>Sets the stub of ApiController.BadRequest()</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.BadRequest(System.Web.Http.ModelBinding.ModelStateDictionary)">
+            <summary>Sets the stub of ApiController.BadRequest(ModelStateDictionary modelState)</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProductsController.BadRequest01">
+            <summary>Sets the stub of ApiController.BadRequest()</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProductsController.BadRequestModelStateDictionary">
+            <summary>Sets the stub of ApiController.BadRequest(ModelStateDictionary modelState)</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProductsController.BadRequestString">
+            <summary>Sets the stub of ApiController.BadRequest(String message)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.Conflict">
+            <summary>Sets the stub of ApiController.Conflict()</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProductsController.Conflict01">
+            <summary>Sets the stub of ApiController.Conflict()</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.Content``1(System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter,System.Net.Http.Headers.MediaTypeHeaderValue)">
+            <summary>Sets the stub of ApiController.Content(HttpStatusCode statusCode, !!0 value, MediaTypeFormatter formatter, MediaTypeHeaderValue mediaType)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.Content``1(System.Net.HttpStatusCode,``0)">
+            <summary>Sets the stub of ApiController.Content(HttpStatusCode statusCode, !!0 value)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.ContentOf1HttpStatusCodeM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Net.HttpStatusCode,``0,System.Web.Http.Results.NegotiatedContentResult{``0}})">
+            <summary>Sets stubs of Content(HttpStatusCode statusCode, !!0 value)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.ContentOf1HttpStatusCodeM0MediaTypeFormatterMediaTypeHeaderValue``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Net.HttpStatusCode,``0,System.Net.Http.Formatting.MediaTypeFormatter,System.Net.Http.Headers.MediaTypeHeaderValue,System.Web.Http.Results.FormattedContentResult{``0}})">
+            <summary>Sets stubs of Content(HttpStatusCode statusCode, !!0 value, MediaTypeFormatter formatter, MediaTypeHeaderValue mediaType)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.Created``1(System.Uri,``0)">
+            <summary>Sets the stub of ApiController.Created(Uri location, !!0 content)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.CreatedAtRoute``1(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},``0)">
+            <summary>Sets the stub of ApiController.CreatedAtRoute(String routeName, IDictionary`2&lt;String,Object&gt; routeValues, !!0 content)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.CreatedAtRouteOf1StringIDictionaryOfStringObjectM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.String,System.Collections.Generic.IDictionary{System.String,System.Object},``0,System.Web.Http.Results.CreatedAtRouteNegotiatedContentResult{``0}})">
+            <summary>Sets stubs of CreatedAtRoute(String routeName, IDictionary`2&lt;String,Object&gt; routeValues, !!0 content)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.CreatedOf1UriM0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Uri,``0,System.Web.Http.Results.CreatedNegotiatedContentResult{``0}})">
+            <summary>Sets stubs of Created(Uri location, !!0 content)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.Dispose(System.Boolean)">
+            <summary>Sets the stub of ApiController.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProductsController.DisposeBoolean">
+            <summary>Sets the stub of ApiController.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.ExecuteAsync(System.Web.Http.Controllers.HttpControllerContext,System.Threading.CancellationToken)">
+            <summary>Sets the stub of ApiController.ExecuteAsync(HttpControllerContext controllerContext, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProductsController.ExecuteAsyncHttpControllerContextCancellationToken">
+            <summary>Sets the stub of ApiController.ExecuteAsync(HttpControllerContext controllerContext, CancellationToken cancellationToken)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.Initialize(System.Web.Http.Controllers.HttpControllerContext)">
+            <summary>Sets the stub of ApiController.Initialize(HttpControllerContext controllerContext)</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProductsController.InitializeHttpControllerContext">
+            <summary>Sets the stub of ApiController.Initialize(HttpControllerContext controllerContext)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.InitializeStub">
+            <summary>Initializes a new instance of type StubProductsController</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.InternalServerError(System.Exception)">
+            <summary>Sets the stub of ApiController.InternalServerError(Exception exception)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.InternalServerError">
+            <summary>Sets the stub of ApiController.InternalServerError()</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProductsController.InternalServerError01">
+            <summary>Sets the stub of ApiController.InternalServerError()</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProductsController.InternalServerErrorException">
+            <summary>Sets the stub of ApiController.InternalServerError(Exception exception)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.Json``1(``0,Newtonsoft.Json.JsonSerializerSettings,System.Text.Encoding)">
+            <summary>Sets the stub of ApiController.Json(!!0 content, JsonSerializerSettings serializerSettings, Encoding encoding)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.JsonOf1M0JsonSerializerSettingsEncoding``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0,Newtonsoft.Json.JsonSerializerSettings,System.Text.Encoding,System.Web.Http.Results.JsonResult{``0}})">
+            <summary>Sets stubs of Json(!!0 content, JsonSerializerSettings serializerSettings, Encoding encoding)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.NotFound">
+            <summary>Sets the stub of ApiController.NotFound()</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProductsController.NotFound01">
+            <summary>Sets the stub of ApiController.NotFound()</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.Ok">
+            <summary>Sets the stub of ApiController.Ok()</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.Ok``1(``0)">
+            <summary>Sets the stub of ApiController.Ok(!!0 content)</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProductsController.Ok01">
+            <summary>Sets the stub of ApiController.Ok()</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.OkOf1M0``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{``0,System.Web.Http.Results.OkNegotiatedContentResult{``0}})">
+            <summary>Sets stubs of Ok(!!0 content)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.Redirect(System.Uri)">
+            <summary>Sets the stub of ApiController.Redirect(Uri location)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.Redirect(System.String)">
+            <summary>Sets the stub of ApiController.Redirect(String location)</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProductsController.RedirectString">
+            <summary>Sets the stub of ApiController.Redirect(String location)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.RedirectToRoute(System.String,System.Collections.Generic.IDictionary{System.String,System.Object})">
+            <summary>Sets the stub of ApiController.RedirectToRoute(String routeName, IDictionary`2&lt;String,Object&gt; routeValues)</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProductsController.RedirectToRouteStringIDictionaryOfStringObject">
+            <summary>Sets the stub of ApiController.RedirectToRoute(String routeName, IDictionary`2&lt;String,Object&gt; routeValues)</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProductsController.RedirectUri">
+            <summary>Sets the stub of ApiController.Redirect(Uri location)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.ResponseMessage(System.Net.Http.HttpResponseMessage)">
+            <summary>Sets the stub of ApiController.ResponseMessage(HttpResponseMessage response)</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProductsController.ResponseMessageHttpResponseMessage">
+            <summary>Sets the stub of ApiController.ResponseMessage(HttpResponseMessage response)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.StatusCode(System.Net.HttpStatusCode)">
+            <summary>Sets the stub of ApiController.StatusCode(HttpStatusCode status)</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProductsController.StatusCodeHttpStatusCode">
+            <summary>Sets the stub of ApiController.StatusCode(HttpStatusCode status)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Controllers.Fakes.StubProductsController.Unauthorized(System.Collections.Generic.IEnumerable{System.Net.Http.Headers.AuthenticationHeaderValue})">
+            <summary>Sets the stub of ApiController.Unauthorized(IEnumerable`1&lt;AuthenticationHeaderValue&gt; challenges)</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Controllers.Fakes.StubProductsController.UnauthorizedIEnumerableOfAuthenticationHeaderValue">
+            <summary>Sets the stub of ApiController.Unauthorized(IEnumerable`1&lt;AuthenticationHeaderValue&gt; challenges)</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Controllers.Fakes.StubProductsController.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Controllers.Fakes.StubProductsController.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Controllers.Fakes.StubProductsController.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:UnitTestWebApiController.Fakes.ShimWebApiApplication">
+            <summary>Shim type of UnitTestWebApiController.WebApiApplication</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Fakes.ShimWebApiApplication.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Fakes.ShimWebApiApplication.#ctor(UnitTestWebApiController.WebApiApplication)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Fakes.ShimWebApiApplication.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Fakes.ShimWebApiApplication.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Fakes.ShimWebApiApplication.Bind(System.ComponentModel.IComponent)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Fakes.ShimWebApiApplication.Bind(System.Web.IHttpAsyncHandler)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Fakes.ShimWebApiApplication.Bind(System.Web.IHttpHandler)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Fakes.ShimWebApiApplication.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Fakes.ShimWebApiApplication.Application_Start">
+            <summary>Sets the shim of WebApiApplication.Application_Start()</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Fakes.ShimWebApiApplication.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Fakes.ShimWebApiApplication.Constructor">
+            <summary>Sets the shim of WebApiApplication.WebApiApplication()</summary>
+        </member>
+        <member name="T:UnitTestWebApiController.Fakes.ShimWebApiApplication.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Fakes.ShimWebApiApplication.AllInstances.Application_Start">
+            <summary>Sets the shim of WebApiApplication.Application_Start()</summary>
+        </member>
+        <member name="T:UnitTestWebApiController.Fakes.ShimWebApiConfig">
+            <summary>Shim type of UnitTestWebApiController.WebApiConfig</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Fakes.ShimWebApiConfig.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Fakes.ShimWebApiConfig.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Fakes.ShimWebApiConfig.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Fakes.ShimWebApiConfig.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Fakes.ShimWebApiConfig.RegisterHttpConfiguration">
+            <summary>Sets the shim of WebApiConfig.Register(HttpConfiguration config)</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Fakes.ShimWebApiConfig._Registerb__0IComponentContext">
+            <summary>Sets the shim of WebApiConfig.&lt;Register&gt;b__0(IComponentContext c)</summary>
+        </member>
+        <member name="T:UnitTestWebApiController.Fakes.StubWebApiApplication">
+            <summary>Stub type of UnitTestWebApiController.WebApiApplication</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Fakes.StubWebApiApplication.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Fakes.StubWebApiApplication.Dispose">
+            <summary>Sets the stub of HttpApplication.Dispose()</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Fakes.StubWebApiApplication.Dispose01">
+            <summary>Sets the stub of HttpApplication.Dispose()</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Fakes.StubWebApiApplication.GetOutputCacheProviderName(System.Web.HttpContext)">
+            <summary>Sets the stub of HttpApplication.GetOutputCacheProviderName(HttpContext context)</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Fakes.StubWebApiApplication.GetOutputCacheProviderNameHttpContext">
+            <summary>Sets the stub of HttpApplication.GetOutputCacheProviderName(HttpContext context)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Fakes.StubWebApiApplication.GetVaryByCustomString(System.Web.HttpContext,System.String)">
+            <summary>Sets the stub of HttpApplication.GetVaryByCustomString(HttpContext context, String custom)</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Fakes.StubWebApiApplication.GetVaryByCustomStringHttpContextString">
+            <summary>Sets the stub of HttpApplication.GetVaryByCustomString(HttpContext context, String custom)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Fakes.StubWebApiApplication.Init">
+            <summary>Sets the stub of HttpApplication.Init()</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Fakes.StubWebApiApplication.Init01">
+            <summary>Sets the stub of HttpApplication.Init()</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Fakes.StubWebApiApplication.InitializeStub">
+            <summary>Initializes a new instance of type StubWebApiApplication</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Fakes.StubWebApiApplication.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Fakes.StubWebApiApplication.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Fakes.StubWebApiApplication.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:UnitTestWebApiController.Models.Fakes.ShimFakeProductRepository">
+            <summary>Shim type of UnitTestWebApiController.Models.FakeProductRepository</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Models.Fakes.ShimFakeProductRepository.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Models.Fakes.ShimFakeProductRepository.#ctor(UnitTestWebApiController.Models.FakeProductRepository)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Models.Fakes.ShimFakeProductRepository.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Models.Fakes.ShimFakeProductRepository.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Models.Fakes.ShimFakeProductRepository.AddProduct">
+            <summary>Sets the shim of FakeProductRepository.Add(Product product)</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Models.Fakes.ShimFakeProductRepository.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Models.Fakes.ShimFakeProductRepository.Constructor">
+            <summary>Sets the shim of FakeProductRepository.FakeProductRepository()</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Models.Fakes.ShimFakeProductRepository.DeleteInt32">
+            <summary>Sets the shim of FakeProductRepository.Delete(Int32 id)</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Models.Fakes.ShimFakeProductRepository.Get">
+            <summary>Sets the shim of FakeProductRepository.Get()</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Models.Fakes.ShimFakeProductRepository.GetByIdInt32">
+            <summary>Sets the shim of FakeProductRepository.GetById(Int32 id)</summary>
+        </member>
+        <member name="T:UnitTestWebApiController.Models.Fakes.ShimFakeProductRepository.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Models.Fakes.ShimFakeProductRepository.AllInstances.AddProduct">
+            <summary>Sets the shim of FakeProductRepository.Add(Product product)</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Models.Fakes.ShimFakeProductRepository.AllInstances.DeleteInt32">
+            <summary>Sets the shim of FakeProductRepository.Delete(Int32 id)</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Models.Fakes.ShimFakeProductRepository.AllInstances.Get">
+            <summary>Sets the shim of FakeProductRepository.Get()</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Models.Fakes.ShimFakeProductRepository.AllInstances.GetByIdInt32">
+            <summary>Sets the shim of FakeProductRepository.GetById(Int32 id)</summary>
+        </member>
+        <member name="T:UnitTestWebApiController.Models.Fakes.ShimProduct">
+            <summary>Shim type of UnitTestWebApiController.Models.Product</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Models.Fakes.ShimProduct.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Models.Fakes.ShimProduct.#ctor(UnitTestWebApiController.Models.Product)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Models.Fakes.ShimProduct.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Models.Fakes.ShimProduct.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Models.Fakes.ShimProduct.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Models.Fakes.ShimProduct.Constructor">
+            <summary>Sets the shim of Product.Product()</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Models.Fakes.ShimProduct.IdGet">
+            <summary>Sets the shim of Product.get_Id()</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Models.Fakes.ShimProduct.IdSetInt32">
+            <summary>Sets the shim of Product.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Models.Fakes.ShimProduct.NameGet">
+            <summary>Sets the shim of Product.get_Name()</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Models.Fakes.ShimProduct.NameSetString">
+            <summary>Sets the shim of Product.set_Name(String value)</summary>
+        </member>
+        <member name="T:UnitTestWebApiController.Models.Fakes.ShimProduct.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Models.Fakes.ShimProduct.AllInstances.IdGet">
+            <summary>Sets the shim of Product.get_Id()</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Models.Fakes.ShimProduct.AllInstances.IdSetInt32">
+            <summary>Sets the shim of Product.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Models.Fakes.ShimProduct.AllInstances.NameGet">
+            <summary>Sets the shim of Product.get_Name()</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Models.Fakes.ShimProduct.AllInstances.NameSetString">
+            <summary>Sets the shim of Product.set_Name(String value)</summary>
+        </member>
+        <member name="T:UnitTestWebApiController.Models.Fakes.StubFakeProductRepository">
+            <summary>Stub type of UnitTestWebApiController.Models.FakeProductRepository</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Models.Fakes.StubFakeProductRepository.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Models.Fakes.StubFakeProductRepository.InitializeStub">
+            <summary>Initializes a new instance of type StubFakeProductRepository</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Models.Fakes.StubFakeProductRepository.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Models.Fakes.StubFakeProductRepository.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Models.Fakes.StubFakeProductRepository.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:UnitTestWebApiController.Models.Fakes.StubIProductRepository">
+            <summary>Stub type of UnitTestWebApiController.Models.IProductRepository</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Models.Fakes.StubIProductRepository.#ctor">
+            <summary>Initializes a new instance of type StubIProductRepository</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Models.Fakes.StubIProductRepository.AddProduct">
+            <summary>Sets the stub of IProductRepository.Add(Product product)</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Models.Fakes.StubIProductRepository.DeleteInt32">
+            <summary>Sets the stub of IProductRepository.Delete(Int32 id)</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Models.Fakes.StubIProductRepository.Get">
+            <summary>Sets the stub of IProductRepository.Get()</summary>
+        </member>
+        <member name="F:UnitTestWebApiController.Models.Fakes.StubIProductRepository.GetByIdInt32">
+            <summary>Sets the stub of IProductRepository.GetById(Int32 id)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Models.Fakes.StubIProductRepository.utwac::UnitTestWebApiController#Models#IProductRepository#Add(UnitTestWebApiController.Models.Product)">
+            <summary>Sets the stub of IProductRepository.Add(Product product)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Models.Fakes.StubIProductRepository.utwac::UnitTestWebApiController#Models#IProductRepository#Delete(System.Int32)">
+            <summary>Sets the stub of IProductRepository.Delete(Int32 id)</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Models.Fakes.StubIProductRepository.utwac::UnitTestWebApiController#Models#IProductRepository#Get">
+            <summary>Sets the stub of IProductRepository.Get()</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Models.Fakes.StubIProductRepository.utwac::UnitTestWebApiController#Models#IProductRepository#GetById(System.Int32)">
+            <summary>Sets the stub of IProductRepository.GetById(Int32 id)</summary>
+        </member>
+        <member name="T:UnitTestWebApiController.Models.Fakes.StubProduct">
+            <summary>Stub type of UnitTestWebApiController.Models.Product</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Models.Fakes.StubProduct.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:UnitTestWebApiController.Models.Fakes.StubProduct.InitializeStub">
+            <summary>Initializes a new instance of type StubProduct</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Models.Fakes.StubProduct.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Models.Fakes.StubProduct.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:UnitTestWebApiController.Models.Fakes.StubProduct.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
