@@ -17,6 +17,7 @@ namespace UnitTestWebApiController.Controllers
             _repository = repository;
         }
 
+       
         public HttpResponseMessage Get(int id)
         {
             Product product = _repository.GetById(id);
@@ -31,10 +32,9 @@ namespace UnitTestWebApiController.Controllers
         {
             _repository.Add(product);
 
+            string uri = this.Url.Link("DefaultApi", new { id = 42 });
             var response = Request.CreateResponse(HttpStatusCode.Created, product);
-            string uri = Url.Link("DefaultApi", new { id = product.Id });
             response.Headers.Location = new Uri(uri);
-
             return response;
         }
     }

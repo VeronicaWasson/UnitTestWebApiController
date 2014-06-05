@@ -1,11 +1,11 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Moq;
 using System;
 using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Routing;
 using UnitTestWebApiController.Controllers;
 using UnitTestWebApiController.Models;
-using UnitTestWebApiController.Models.Fakes;
 
 namespace UnitTestWebApiController.Tests
 {
@@ -18,10 +18,12 @@ namespace UnitTestWebApiController.Tests
         public void Initialize()
         {
             // Create stub
-            repository = new StubIProductRepository
-            {
-                GetByIdInt32 = (id) => new Product { Id = id, Name = "Product" }
-            };
+            var mockRepository = new Mock<IProductRepository>();
+            mockRepository.Setup(x => x.GetById(It.IsAny<int>()))
+                .Returns((int id) => new Product { Id = id, Name = "Product" });
+
+            repository = mockRepository.Object;
+
         }
         
         [TestMethod]
@@ -70,28 +72,29 @@ namespace UnitTestWebApiController.Tests
         }
 
         [TestMethod]
-        public void PostSetsLocationHeader_FakesVersion()
+        public void PostSetsLocationHeader_MockVersion()
         {
-            // This version uses a stub for UrlHelper.
+            // This version uses a mock UrlHelper.
 
             // Arrange
             ProductsController controller = new ProductsController(repository);
             controller.Request = new HttpRequestMessage();
             controller.Configuration = new HttpConfiguration();
 
-            var stubUrlHelper = new System.Web.Http.Routing.Fakes.StubUrlHelper
-            {
-                LinkStringObject = (str, obj) => "http://location_header/"
-            };
+            string locationUrl = "http://location/";
 
-            controller.Url = stubUrlHelper;
+             //Create the mock and set up the Link method, which is used to create the Location header.
+             //The mock version returns a fixed string.
+            var mockUrlHelper = new Mock<UrlHelper>();
+            mockUrlHelper.Setup(x => x.Link(It.IsAny<string>(), It.IsAny<object>())).Returns(locationUrl);
+            controller.Url = mockUrlHelper.Object;
 
             // Act
-            Product product = new Product() { Name = "Product1" };
-            var response = controller.Post(product);
+            var response = controller.Post(new Product() { Id = 42 });
 
+            var foop = controller.Url.Link("DefaultApi", new { id = 42 });
             // Assert
-            Assert.AreEqual("http://location_header/", response.Headers.Location.AbsoluteUri);
-        }    
+            Assert.AreEqual(locationUrl, response.Headers.Location.AbsoluteUri);
+        }
     }
 }
